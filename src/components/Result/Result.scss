@@ -1,0 +1,41 @@
+.result {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   max-width: 800px;
+
+   .card {
+      width: 100%;
+      max-width: 200px;
+      margin: 15px;
+      background-color: #fff;
+      border: 1px solid lightgray;
+      border-radius: 3px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+
+      img {
+         width: 100%;
+      }
+
+      h2 {
+         margin: 15px auto 5px 10px;
+         font-size: 16px;
+      }
+
+      .subtitle {
+         margin: 0 auto 10px 10px;
+         font-size: 13px;
+         color: grey;
+      }
+
+      .description {
+         margin: 0 10px 10px 10px;
+         font-size: 12px;
+         color: rgb(84, 84, 84);
+
+      }
+   }
+}
